@@ -28,10 +28,10 @@ app_mode = st.sidebar.selectbox(
 
 # Home page
 if app_mode == 'Home':
-    st.header("Plant Disease Recognition System")
+    st.header("PlantDoctor: Recognise Your Plant\'s Disease")
     image_path = "homeImg.jpg"
     st.image(image_path, use_column_width=True)
-    st.markdown("""**Harness the Power of AI to Keep Your Plants Thriving!.**""")
+    st.markdown("""**Harness the Power of AI to Keep Your Plants Thriving!**""")
 
 # About page
 elif app_mode == "About":
